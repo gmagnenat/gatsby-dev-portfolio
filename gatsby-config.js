@@ -3,7 +3,10 @@
  */
 module.exports = {
 	siteMetadata: {
-		title: 'Gwenaël Magnenat - Web Developer',
+		title: `Gwenaël Magnenat - Web Developer`,
+		description: `Personal developer portfolio of Gwenaël Magnenat built with GatsbyJS`,
+		twitterUsername: `@gmagnenat`,
+		image: ``,
 		siteUrl: `https://gmagnenat.com`,
 	},
 	plugins: [

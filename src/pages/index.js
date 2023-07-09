@@ -1,13 +1,15 @@
 import * as React from 'react';
+import { Seo } from '../components/seo';
 
 const IndexPage = () => {
 	return (
 		<main>
-			<h1 className='text-4xl text-red-500'>Gwenaël Magnenat</h1>
+			<h1 className='text-2xl'>Gwenaël Magnenat</h1>
+			<p>This website is built with Gatsby and hosted on Netlify</p>
 		</main>
 	);
 };
 
-export default IndexPage;
+export const Head = () => <Seo />;
 
-export const Head = () => <title>Home Page</title>;
+export default IndexPage;
