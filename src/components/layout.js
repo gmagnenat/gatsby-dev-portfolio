@@ -21,6 +21,9 @@ const Layout = ({ pageTitle, children }) => {
 					<li>
 						<Link to='/about'>About</Link>
 					</li>
+					<li>
+						<Link to='/blog'>Blog</Link>
+					</li>
 				</ul>
 			</nav>
 			<main className='px-4 mx-auto max-w-[500px]'>
