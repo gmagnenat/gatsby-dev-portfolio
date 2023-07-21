@@ -13,7 +13,7 @@ const IndexPage = () => {
 						Nice to meet you! <br />
 						I'm Gwenaël Magnenat
 					</h1>
-					<p className='mb-8 text-s md:text-xl text-gray-500 font-medium max-w-[40ch]'>
+					<p className='mb-8 text-s md:text-xl text-gray-300 font-medium max-w-[40ch]'>
 						I am a web developer based in Switzerland, dedicated to building web
 						applications that are accessible to all. With a wide range of
 						experience in various web technologies, I am a team player and
