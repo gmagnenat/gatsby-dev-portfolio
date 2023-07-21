@@ -31,7 +31,7 @@ const header = () => {
 					</ul>
 				</div> */}
 			</div>
-			<button className='navbar-burger self-center xl:hidden'>
+			{/* <button className='navbar-burger self-center xl:hidden'>
 				<svg
 					width='35'
 					height='35'
@@ -52,7 +52,7 @@ const header = () => {
 						fill='currentColor'
 					></path>
 				</svg>
-			</button>
+			</button> */}
 		</nav>
 	);
 };
