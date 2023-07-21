@@ -15,18 +15,18 @@ const experience = () => {
 				<div className='flex flex-wrap -mx-4'>
 					<div className='w-full md:w-1/3 px-4 mb-16 lg:mb-0'>
 						<div className='mb-12'>
-							<h3 className='mb-4 text-3xl md:text-4xl leading-tight text-white font-medium font-bold tracking-tighter'>
+							<h2 className='mb-4 text-3xl md:text-4xl leading-tight text-white font-medium font-bold tracking-tighter'>
 								Job experiences
-							</h3>
+							</h2>
 							<p className='text-lg md:text-xl text-coolGray-400 font-medium'>
 								These experiences have allowed me to develop a wide range of
 								skills and expertise, both technical and soft.
 							</p>
 						</div>
 						<div className='mb-12'>
-							<h3 className='mb-4 text-3xl md:text-4xl leading-tight text-white font-medium font-bold tracking-tighter'>
+							<h2 className='mb-4 text-3xl md:text-4xl leading-tight text-white font-medium font-bold tracking-tighter'>
 								Tech I worked with
-							</h3>
+							</h2>
 							<div className='flex flex-wrap gap-2'>
 								<AiFillHtml5 size='40' />
 								<IoLogoCss3 size='40' />
@@ -42,18 +42,18 @@ const experience = () => {
 							</div>
 						</div>
 						<div className='mb-12'>
-							<h3 className='mb-4 text-3xl md:text-4xl leading-tight text-white font-medium font-bold tracking-tighter'>
+							<h2 className='mb-4 text-3xl md:text-4xl leading-tight text-white font-medium font-bold tracking-tighter'>
 								Side projects
-							</h3>
+							</h2>
 							<p>Isolated Lines - Electronic music project</p>
 							<p>Limites - Music composition</p>
 							<p>Creaked Records - Website developement</p>
 							<p>Sbire music - Record Label</p>
 						</div>
 						<div>
-							<h3 className='mb-4 text-3xl md:text-4xl leading-tight text-white font-medium font-bold tracking-tighter'>
+							<h2 className='mb-4 text-3xl md:text-4xl leading-tight text-white font-medium font-bold tracking-tighter'>
 								Studies
-							</h3>
+							</h2>
 							<p className='border-b border-purple-200/50 pb-2 mb-2'>
 								Bachelor of Science HES-SO in Media Engineering - HEIG-VD
 							</p>
@@ -75,9 +75,9 @@ const experience = () => {
 									{experience.company}
 								</span>
 								<p className='font-light py-4'>{experience.when}</p>
-								<h3 className='mb-2 text-lg md:text-xl text-white font-bold'>
+								<h2 className='mb-2 text-lg md:text-xl text-white font-bold'>
 									{experience.title}
-								</h3>
+								</h2>
 								<div></div>
 
 								{experience.description.map((line) => (

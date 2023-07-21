@@ -48,6 +48,7 @@ const footer = () => {
 						<div className='flex flex-wrap md:justify-end -mx-5'>
 							<div className='px-5'>
 								<a
+									aria-label='GitHub'
 									href='https://github.com/gmagnenat'
 									target='_blank'
 									rel='noreferrer'
@@ -57,6 +58,7 @@ const footer = () => {
 							</div>
 							<div className='px-5'>
 								<a
+									aria-label='LinkedIn'
 									href='https://linkedin.com/in/gmagnenat'
 									target='_blank'
 									rel='noreferrer'
