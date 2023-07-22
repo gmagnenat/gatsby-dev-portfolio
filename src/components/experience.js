@@ -4,8 +4,15 @@ import experienceData from '../data-experience';
 import { AiFillHtml5, AiFillGithub } from 'react-icons/ai';
 import { IoLogoCss3 } from 'react-icons/io';
 import { BiLogoFirebase, BiLogoReact } from 'react-icons/bi';
-import { DiLinux } from 'react-icons/di';
-import { SiAnsible, SiGatsby, SiMysql, SiVirtualbox } from 'react-icons/si';
+import { DiLinux, DiJsBadge, DiLaravel, DiSass } from 'react-icons/di';
+import { CgMonday } from 'react-icons/cg';
+import {
+	SiAnsible,
+	SiGatsby,
+	SiMysql,
+	SiVirtualbox,
+	SiPhp,
+} from 'react-icons/si';
 import { BsWordpress } from 'react-icons/bs';
 
 const experience = () => {
@@ -30,6 +37,8 @@ const experience = () => {
 							<div className='flex flex-wrap gap-2'>
 								<AiFillHtml5 size='40' />
 								<IoLogoCss3 size='40' />
+								<DiSass size={40} />
+								<DiJsBadge size={40} />
 								<AiFillGithub size='40' />
 								<BiLogoReact size={40} />
 								<SiGatsby size={40} />
@@ -39,6 +48,9 @@ const experience = () => {
 								<SiAnsible size={40} />
 								<BsWordpress size={40} />
 								<SiMysql size={40} />
+								<SiPhp size={40} />
+								<DiLaravel size={40} />
+								<CgMonday size={40} />
 							</div>
 						</div>
 						<div className='mb-12'>
